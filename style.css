@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d5d5d5;
+}
+.container{
+width: 450px;
+height: 450px;
+/* background-color: gold; */
+border-radius:  50%;
+border: 2px solid rgb(255, 217, 4);
+margin: 0 auto;
+margin-top: 100px;
+/* perspective: 1000px; */
+}
+.prosto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: gold;
+    animation: glow1 5s ;
+    /* transition: .5s all; */
+    /* margin-bottom: -20px; */
+    /* animation-name: glow1; */
+    animation-duration: 5s;
+    /* animation-delay: .1s; */
+    /* animation-direction: alternate; */
+    animation-timing-function: ease;
+    position: relative;
+    animation-fill-mode: forwards ;
+    animation-iteration-count: infinite;
+    /* transition: 2s; */
+    /* animation-play-state: running; */
+}
+@keyframes glow1{
+    0%{
+        background-color: goldenrod;
+        /* transform: translateX(-100%); */
+        top: 5px;
+        left: 20px;
+        background-color: aqua;
+    }
+
+    0.6%
+        {
+        top: 6px;
+        left:25px;    
+        }
+    
+    1%{
+        left: 25px;
+        left: 60px;
+    }
+    
+    25%
+    {
+        top:150px;
+        left:148px;
+        background-color: violet;
+    }
+    30%{
+top: 205px;
+left: 145px;
+    }
+    50%{
+        /* transform: rotateY(-100px); */
+        top: 265px;
+        left: 95px;
+        background-color: tan;
+
+    }
+    53%{
+top: 272px;
+background-color: red;
+    }
+    55%{
+        top: 285px;
+        background-color: #777733;
+    }
+    60%{
+top: 280px;
+    }
+    66%{
+        top: 283px;
+    }
+    75%
+    {
+        top: 275px;
+        left: -84px;
+    /* right: 100px; */
+    background-color: dodgerblue;
+    }
+
+    76%{
+        left: -110px;
+        top: 280px;
+        background-color: rebeccapurple;
+    }
+    80%{
+        
+top: 110px;
+left: -122px;
+    }
+    82%{
+        top: 105px;
+left: -124px;
+    }
+
+    84%{
+        top: 95px;
+left: -125px;
+    }
+    
+    85%{
+        top: 95px;
+left: -128px;
+    }
+  
+    90%
+    {
+       
+        top: 92px;
+        /* bottom: 1px; */
+        left: -128px;
+        /* right: 139px; */
+        background-color: darkred
+    }
+    95%{
+        top:8px;
+        left:-15px;
+    }
+    100%{
+         left: 30px;
+         top: 2px;
+    }
+}
+
